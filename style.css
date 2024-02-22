@@ -56,3 +56,6 @@ p {
   max-width: 70%; /* Puedes ajustar el porcentaje según tus necesidades */
   height: auto; /* Para mantener la proporción original de la imagen */
 }
+a{
+  text-align: center;
+}
