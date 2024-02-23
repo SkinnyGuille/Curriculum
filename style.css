@@ -1,4 +1,7 @@
 /* Estilo para el cuerpo de la página */
+*{margin: 0%;
+  padding: 0;
+  box-sizing: border-box;}
 .fondo{
     width: 99%;
      background-size: cover;
@@ -42,6 +45,10 @@ p {
       text-shadow: 1px 0px 4px #000000, 1px 0px 4px #000000, 1px 0px 4px #000000, 1px 0px 4px #000000;  
   
   }
+  a{
+  text-align: center;
+}
+
   .centrar {
     text-align: center;
   }
@@ -51,11 +58,19 @@ p {
     margin: 0 auto;
 }
 /*carrucel*/
+.carousel-inner{
+  background-position: center;
+}
 .carousel-item img {
   background-position: center;
   max-width: 70%; /* Puedes ajustar el porcentaje según tus necesidades */
   height: auto; /* Para mantener la proporción original de la imagen */
 }
-a{
-  text-align: center;
-}
+@media screen and (max-width: 768px) {
+  .centrar{
+    width: 500px;
+  }
+.container-fluid{
+  width: 100%;
+  
+}}
