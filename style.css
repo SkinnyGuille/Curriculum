@@ -68,7 +68,7 @@ p {
 }
 @media screen and (max-width: 768px) {
   .centrar{
-    width: 500%;
+    width:auto;
   }
 .container-fluid{
   width: auto;
